@@ -2710,7 +2710,7 @@ void MainWindow::on_actionEverest_triggered()
   config->set_background(BACKGROUND_EVEREST);
 
   centralWidget()->setStyleSheet("#centralWidget {"
-                  "border-image: url(:/backgrounds/8,848m_Everest_8,516m_Lhotse_Himalaya_Mountain_Flights_Nepal_-_panoramio_(2).jpg)"
+                  "border-image: url(:/backgrounds/panoramio_(2).jpg)"
                   " 0 0 0 0 stretch;}");
 
   set_credit();
@@ -2730,7 +2730,7 @@ void MainWindow::on_actionOcean_triggered()
   config->set_background(BACKGROUND_OCEAN);
 
   centralWidget()->setStyleSheet("#centralWidget {"
-                   "border-image: url(:/backgrounds/_Palm_ _Beach._Port_Douglas._-_panoramio.jpg)"
+                   "border-image: url(:/backgrounds/panoramio.jpg)"
                    " 0 0 0 0 stretch stretch; }");
 
   set_credit();
@@ -2768,7 +2768,7 @@ void MainWindow::on_actionMt_Fuji_triggered()
   config->set_background(BACKGROUND_MT_FUJI);
 
   centralWidget()->setStyleSheet("#centralWidget {"
-                   "border-image: url(:/backgrounds/Mount._Fuji_early_in_the_morning_早朝の富士山_-_panoramio.jpg)"
+                   "border-image: url(:/backgrounds/Mount-panoramio.jpg)"
                    " 0 0 0 0 stretch stretch; }");
 
   set_credit();
