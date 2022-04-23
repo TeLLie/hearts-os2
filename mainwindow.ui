@@ -1,0 +1,3069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>930</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>715</width>
+    <height>780</height>
+   </size>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>63</red>
+        <green>159</green>
+        <blue>82</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>94</red>
+        <green>239</green>
+        <blue>123</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>199</green>
+        <blue>102</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>31</red>
+        <green>79</green>
+        <blue>41</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>42</red>
+        <green>106</green>
+        <blue>54</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>63</red>
+        <green>159</green>
+        <blue>82</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>159</red>
+        <green>207</green>
+        <blue>168</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>63</red>
+        <green>159</green>
+        <blue>82</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>94</red>
+        <green>239</green>
+        <blue>123</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>199</green>
+        <blue>102</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>31</red>
+        <green>79</green>
+        <blue>41</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>42</red>
+        <green>106</green>
+        <blue>54</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>63</red>
+        <green>159</green>
+        <blue>82</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>159</red>
+        <green>207</green>
+        <blue>168</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>31</red>
+        <green>79</green>
+        <blue>41</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>63</red>
+        <green>159</green>
+        <blue>82</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>94</red>
+        <green>239</green>
+        <blue>123</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>199</green>
+        <blue>102</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>31</red>
+        <green>79</green>
+        <blue>41</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>42</red>
+        <green>106</green>
+        <blue>54</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>31</red>
+        <green>79</green>
+        <blue>41</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>31</red>
+        <green>79</green>
+        <blue>41</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>63</red>
+        <green>159</green>
+        <blue>82</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>63</red>
+        <green>159</green>
+        <blue>82</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>63</red>
+        <green>159</green>
+        <blue>82</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">Hearts</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="CLabel" name="label_card_s1">
+    <property name="geometry">
+     <rect>
+      <x>195</x>
+      <y>620</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">S-1</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_card_s2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>620</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">S-2</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_card_s3">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>620</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">S-3</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_card_s4">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>620</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">S-4</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_card_s5">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>620</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">S-5</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_card_s6">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>620</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">S-6</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_card_s7">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>620</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">S-7</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_card_s8">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>620</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">S-8</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_card_s9">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>620</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">S-9</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_card_s10">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>620</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">S-10</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_card_s11">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>620</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">S-11</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_card_s12">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>620</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">S-12</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_card_s13">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>620</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">S-13</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_played_s">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>450</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Card S</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_played_w">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>310</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Card W</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_played_n">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>170</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Card N</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_played_e">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>310</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Card E</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_pass_to">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>310</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Pass to</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_name_s">
+    <property name="geometry">
+     <rect>
+      <x>567</x>
+      <y>495</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_name_w">
+    <property name="geometry">
+     <rect>
+      <x>158</x>
+      <y>345</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="text">
+     <string notr="true">B</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_name_n">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>195</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="text">
+     <string notr="true">C</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_name_e">
+    <property name="geometry">
+     <rect>
+      <x>655</x>
+      <y>345</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="text">
+     <string notr="true">D</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>776</y>
+      <width>661</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>63</red>
+          <green>159</green>
+          <blue>82</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>865</y>
+      <width>621</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>385</x>
+      <y>752</y>
+      <width>120</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="format">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_online">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>735</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="text">
+     <string>Online:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_connected_status">
+    <property name="geometry">
+     <rect>
+      <x>855</x>
+      <y>730</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_exit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="toolTip">
+     <string>Exit</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/icons/Paomedia-Small-N-Flat-Sign-left.svg</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_leave">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="toolTip">
+     <string>Leave</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/icons/Paomedia-Small-N-Flat-Sign-up.svg</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_tables">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="toolTip">
+     <string>Tables</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/icons/table-icon.png</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_create_table">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="toolTip">
+     <string>Create Table</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/icons/Paomedia-Small-N-Flat-Sign-add.svg</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_mute">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="toolTip">
+     <string>Mute</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/icons/muted.png</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_mode">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>865</y>
+      <width>41</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_start">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>50</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="toolTip">
+     <string>Start</string>
+    </property>
+    <property name="statusTip">
+     <string/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/icons/Paomedia-Small-N-Flat-Sign-check.svg</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar_bank_s">
+    <property name="geometry">
+     <rect>
+      <x>559</x>
+      <y>580</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="textVisible">
+     <bool>false</bool>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="format">
+     <string notr="true">%p%</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar_bank_w">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>430</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="textVisible">
+     <bool>false</bool>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="format">
+     <string notr="true">%p%</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar_bank_n">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>280</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="textVisible">
+     <bool>false</bool>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="format">
+     <string notr="true">%p%</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar_bank_e">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>430</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="textVisible">
+     <bool>false</bool>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="format">
+     <string notr="true">%p%</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_w1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">W-1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_w2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>165</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">W-2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_w3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">W-3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_w4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>235</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">W-4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_w5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">W-5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_w6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>305</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">W-6</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_w7">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>340</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">W-7</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_w8">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>375</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">W-8</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_w9">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>410</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">W-9</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_w10">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>445</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">W-10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_w11">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>480</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">W-11</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_w12">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>515</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">W-12</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_w13">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>550</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">W-13</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_n1">
+    <property name="geometry">
+     <rect>
+      <x>625</x>
+      <y>30</y>
+      <width>60</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">N-1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_n2">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>30</y>
+      <width>60</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">N-2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_n3">
+    <property name="geometry">
+     <rect>
+      <x>555</x>
+      <y>30</y>
+      <width>60</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">N-3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_n4">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>30</y>
+      <width>60</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">N-4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_n5">
+    <property name="geometry">
+     <rect>
+      <x>485</x>
+      <y>30</y>
+      <width>60</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">N-5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_n6">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>30</y>
+      <width>60</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">N-6</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_n7">
+    <property name="geometry">
+     <rect>
+      <x>415</x>
+      <y>30</y>
+      <width>60</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">N-7</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_n8">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>30</y>
+      <width>60</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">N-8</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_n9">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>30</y>
+      <width>60</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">N-9</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_n10">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>30</y>
+      <width>60</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">N-10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_n11">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>30</y>
+      <width>60</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">N-11</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_n12">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>30</y>
+      <width>60</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">N-12</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_n13">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>30</y>
+      <width>60</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">N-13</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_e1">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>550</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">E-1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_e2">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>515</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">E-2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_e3">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>480</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">E-3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_e4">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>445</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">E-4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_e5">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>410</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">E-5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_e6">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>375</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">E-6</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_e7">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>340</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">E-7</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_e8">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>305</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">E-8</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_e9">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>270</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">E-9</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_e10">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>235</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">E-10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_e11">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>200</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">E-11</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_e12">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>165</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">E-12</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_card_e13">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>130</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">E-13</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_deck_w">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>86</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/deck_h.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_deck_e">
+    <property name="geometry">
+     <rect>
+      <x>779</x>
+      <y>130</y>
+      <width>86</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/deck_h.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_deck_n">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>38</y>
+      <width>480</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/deck_n.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_heart_w">
+    <property name="geometry">
+     <rect>
+      <x>128</x>
+      <y>300</y>
+      <width>140</width>
+      <height>140</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/heart.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_heart_e">
+    <property name="geometry">
+     <rect>
+      <x>625</x>
+      <y>300</y>
+      <width>140</width>
+      <height>140</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/heart.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_heart_s">
+    <property name="geometry">
+     <rect>
+      <x>537</x>
+      <y>450</y>
+      <width>140</width>
+      <height>140</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/heart.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_heart_n">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>150</y>
+      <width>140</width>
+      <height>140</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/heart.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_deck_s">
+    <property name="geometry">
+     <rect>
+      <x>195</x>
+      <y>620</y>
+      <width>510</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/deck_s.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_score_s">
+    <property name="geometry">
+     <rect>
+      <x>569</x>
+      <y>515</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="text">
+     <string notr="true">0 / 0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_score_n">
+    <property name="geometry">
+     <rect>
+      <x>252</x>
+      <y>215</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="text">
+     <string notr="true">0 / 0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_score_w">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>365</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="text">
+     <string notr="true">0 / 0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_score_e">
+    <property name="geometry">
+     <rect>
+      <x>657</x>
+      <y>365</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="text">
+     <string notr="true">0 / 0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_waiting_s">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>450</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>Waiting for
+ a player</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_waiting_w">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>310</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>Waiting for
+ a player</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_waiting_n">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>170</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>Waiting for
+ a player</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="CLabel" name="label_waiting_e">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>310</y>
+      <width>90</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>Waiting for
+ a player</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_credit">
+    <property name="geometry">
+     <rect>
+      <x>636</x>
+      <y>10</y>
+      <width>241</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>190</red>
+          <green>190</green>
+          <blue>190</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>190</red>
+          <green>190</green>
+          <blue>190</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>31</red>
+          <green>79</green>
+          <blue>41</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>credit</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <zorder>label_played_s</zorder>
+   <zorder>label_played_e</zorder>
+   <zorder>label_played_n</zorder>
+   <zorder>label_played_w</zorder>
+   <zorder>label_deck_s</zorder>
+   <zorder>label_heart_n</zorder>
+   <zorder>label_heart_s</zorder>
+   <zorder>label_heart_e</zorder>
+   <zorder>label_heart_w</zorder>
+   <zorder>label_deck_n</zorder>
+   <zorder>label_deck_e</zorder>
+   <zorder>label_deck_w</zorder>
+   <zorder>label_card_s1</zorder>
+   <zorder>label_card_s2</zorder>
+   <zorder>label_card_s3</zorder>
+   <zorder>label_card_s4</zorder>
+   <zorder>label_card_s5</zorder>
+   <zorder>label_card_s6</zorder>
+   <zorder>label_card_s7</zorder>
+   <zorder>label_card_s8</zorder>
+   <zorder>label_card_s9</zorder>
+   <zorder>label_card_s10</zorder>
+   <zorder>label_card_s11</zorder>
+   <zorder>label_card_s12</zorder>
+   <zorder>label_card_s13</zorder>
+   <zorder>label_pass_to</zorder>
+   <zorder>label_name_s</zorder>
+   <zorder>label_name_w</zorder>
+   <zorder>label_name_n</zorder>
+   <zorder>label_name_e</zorder>
+   <zorder>textEdit</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>progressBar</zorder>
+   <zorder>label_online</zorder>
+   <zorder>label_connected_status</zorder>
+   <zorder>pushButton_exit</zorder>
+   <zorder>pushButton_leave</zorder>
+   <zorder>pushButton_tables</zorder>
+   <zorder>pushButton_create_table</zorder>
+   <zorder>pushButton_mute</zorder>
+   <zorder>pushButton_mode</zorder>
+   <zorder>pushButton_start</zorder>
+   <zorder>progressBar_bank_s</zorder>
+   <zorder>progressBar_bank_w</zorder>
+   <zorder>progressBar_bank_n</zorder>
+   <zorder>progressBar_bank_e</zorder>
+   <zorder>label_card_w1</zorder>
+   <zorder>label_card_w2</zorder>
+   <zorder>label_card_w3</zorder>
+   <zorder>label_card_w4</zorder>
+   <zorder>label_card_w5</zorder>
+   <zorder>label_card_w6</zorder>
+   <zorder>label_card_w7</zorder>
+   <zorder>label_card_w8</zorder>
+   <zorder>label_card_w9</zorder>
+   <zorder>label_card_w10</zorder>
+   <zorder>label_card_w11</zorder>
+   <zorder>label_card_w12</zorder>
+   <zorder>label_card_w13</zorder>
+   <zorder>label_card_n1</zorder>
+   <zorder>label_card_n2</zorder>
+   <zorder>label_card_n3</zorder>
+   <zorder>label_card_n4</zorder>
+   <zorder>label_card_n5</zorder>
+   <zorder>label_card_n6</zorder>
+   <zorder>label_card_n7</zorder>
+   <zorder>label_card_n8</zorder>
+   <zorder>label_card_n9</zorder>
+   <zorder>label_card_n10</zorder>
+   <zorder>label_card_n11</zorder>
+   <zorder>label_card_n12</zorder>
+   <zorder>label_card_n13</zorder>
+   <zorder>label_card_e1</zorder>
+   <zorder>label_card_e2</zorder>
+   <zorder>label_card_e3</zorder>
+   <zorder>label_card_e4</zorder>
+   <zorder>label_card_e5</zorder>
+   <zorder>label_card_e6</zorder>
+   <zorder>label_card_e7</zorder>
+   <zorder>label_card_e8</zorder>
+   <zorder>label_card_e9</zorder>
+   <zorder>label_card_e10</zorder>
+   <zorder>label_card_e11</zorder>
+   <zorder>label_card_e12</zorder>
+   <zorder>label_card_e13</zorder>
+   <zorder>label_score_s</zorder>
+   <zorder>label_score_n</zorder>
+   <zorder>label_score_w</zorder>
+   <zorder>label_score_e</zorder>
+   <zorder>label_waiting_s</zorder>
+   <zorder>label_waiting_w</zorder>
+   <zorder>label_waiting_n</zorder>
+   <zorder>label_waiting_e</zorder>
+   <zorder>label_credit</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <property name="nativeMenuBar">
+    <bool>false</bool>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionUndo"/>
+    <addaction name="actionConnect"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>S&amp;ettings</string>
+    </property>
+    <widget class="QMenu" name="menuDeck">
+     <property name="title">
+      <string>De&amp;ck</string>
+     </property>
+     <addaction name="actionStandard"/>
+     <addaction name="actionNicu_white"/>
+     <addaction name="actionEnglish_2"/>
+     <addaction name="actionRussian_2"/>
+     <addaction name="actionTigullio_modern"/>
+    </widget>
+    <widget class="QMenu" name="menuGame_Speed">
+     <property name="title">
+      <string>Game Speed</string>
+     </property>
+     <addaction name="actionSlow"/>
+     <addaction name="actionNormal"/>
+     <addaction name="actionFast"/>
+     <addaction name="separator"/>
+     <addaction name="actionCustom_Expert"/>
+    </widget>
+    <widget class="QMenu" name="menuLanguage_2">
+     <property name="title">
+      <string>Language</string>
+     </property>
+     <addaction name="actionEnglish"/>
+     <addaction name="actionFrench"/>
+     <addaction name="actionRussian"/>
+    </widget>
+    <widget class="QMenu" name="menuBackground">
+     <property name="title">
+      <string>Background</string>
+     </property>
+     <addaction name="actionNo_image"/>
+     <addaction name="actionUnivers"/>
+     <addaction name="actionEverest"/>
+     <addaction name="actionMt_Fuji"/>
+     <addaction name="actionOcean"/>
+     <addaction name="actionDesert"/>
+    </widget>
+    <addaction name="actionAnimate_Play"/>
+    <addaction name="actionAuto_Centering"/>
+    <addaction name="actionAuto_Start"/>
+    <addaction name="actionTram"/>
+    <addaction name="actionEasy_card_selection"/>
+    <addaction name="actionInfo_Channel"/>
+    <addaction name="actionSave_Game_Quit"/>
+    <addaction name="actionSounds"/>
+    <addaction name="menuGame_Speed"/>
+    <addaction name="menuDeck"/>
+    <addaction name="menuLanguage_2"/>
+    <addaction name="menuBackground"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="actionRules"/>
+    <addaction name="actionSettings"/>
+    <addaction name="actionOnline"/>
+    <addaction name="actionCredits"/>
+   </widget>
+   <widget class="QMenu" name="menuGame_Variations">
+    <property name="title">
+     <string>Opt&amp;ions</string>
+    </property>
+    <addaction name="actionQueen_Spade_Break_Heart"/>
+    <addaction name="actionPerfect_100"/>
+    <addaction name="actionOmnibus"/>
+    <addaction name="actionNo_Trick_Bonus"/>
+    <addaction name="actionNew_Moon"/>
+    <addaction name="actionNo_Draw"/>
+   </widget>
+   <widget class="QMenu" name="menuStats">
+    <property name="title">
+     <string>Stats</string>
+    </property>
+    <addaction name="actionShow"/>
+    <addaction name="actionReset"/>
+   </widget>
+   <widget class="QMenu" name="menuDebug">
+    <property name="title">
+     <string>&amp;Debug</string>
+    </property>
+    <addaction name="actionCards_Played"/>
+    <addaction name="actionShow_2"/>
+    <addaction name="actionCheat"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuGame_Variations"/>
+   <addaction name="menuOptions"/>
+   <addaction name="menuStats"/>
+   <addaction name="menuHelp"/>
+   <addaction name="menuDebug"/>
+  </widget>
+  <action name="actionNew">
+   <property name="text">
+    <string>&amp;New</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>&amp;Quit</string>
+   </property>
+  </action>
+  <action name="actionCredits">
+   <property name="text">
+    <string>&amp;Credits</string>
+   </property>
+  </action>
+  <action name="actionTram">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Detect Tram</string>
+   </property>
+   <property name="whatsThis">
+    <string extracomment="The game will detect when a player takes the rest of the cards. Not applied for last hand."/>
+   </property>
+  </action>
+  <action name="actionSounds">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Sounds</string>
+   </property>
+  </action>
+  <action name="actionAuto_Centering">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Auto Centering</string>
+   </property>
+  </action>
+  <action name="actionCheat">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Cheat &amp;Mode</string>
+   </property>
+  </action>
+  <action name="actionInfo_Channel">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Info Channel</string>
+   </property>
+  </action>
+  <action name="actionRules">
+   <property name="text">
+    <string>&amp;Rules</string>
+   </property>
+  </action>
+  <action name="actionPerfect_100">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Perfect 100</string>
+   </property>
+  </action>
+  <action name="actionOmnibus">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Omnibus</string>
+   </property>
+  </action>
+  <action name="actionQueen_Spade_Break_Heart">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Queen Spade Break Heart</string>
+   </property>
+  </action>
+  <action name="actionNo_Trick_Bonus">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;No Trick Bonus</string>
+   </property>
+  </action>
+  <action name="actionNew_Moon">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>New &amp;Moon</string>
+   </property>
+  </action>
+  <action name="actionNo_Draw">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>No &amp;Draw</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="text">
+    <string>&amp;Settings</string>
+   </property>
+  </action>
+  <action name="actionSave_Game_Quit">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Save &amp;Game (Quit)</string>
+   </property>
+  </action>
+  <action name="actionShow">
+   <property name="text">
+    <string>&amp;Show</string>
+   </property>
+  </action>
+  <action name="actionReset">
+   <property name="text">
+    <string>&amp;Reset</string>
+   </property>
+  </action>
+  <action name="actionShow_2">
+   <property name="text">
+    <string>&amp;Cards History</string>
+   </property>
+  </action>
+  <action name="actionEnglish">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;English</string>
+   </property>
+  </action>
+  <action name="actionRussian">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Russian</string>
+   </property>
+  </action>
+  <action name="actionFrench">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;French</string>
+   </property>
+  </action>
+  <action name="actionEasy_card_selection">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Easy card selection</string>
+   </property>
+  </action>
+  <action name="actionStandard">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Standard</string>
+   </property>
+  </action>
+  <action name="actionRussian_2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Russian</string>
+   </property>
+  </action>
+  <action name="actionEnglish_2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;English</string>
+   </property>
+  </action>
+  <action name="actionConnect">
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </action>
+  <action name="actionCreate_Table">
+   <property name="text">
+    <string>Create Table</string>
+   </property>
+  </action>
+  <action name="actionTables">
+   <property name="text">
+    <string>Tables</string>
+   </property>
+  </action>
+  <action name="actionOnline">
+   <property name="text">
+    <string>Online</string>
+   </property>
+  </action>
+  <action name="actionCards_Played">
+   <property name="text">
+    <string>Cards Played</string>
+   </property>
+  </action>
+  <action name="actionSlow">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Slow</string>
+   </property>
+  </action>
+  <action name="actionNormal">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Normal</string>
+   </property>
+  </action>
+  <action name="actionFast">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Fast</string>
+   </property>
+  </action>
+  <action name="actionAuto_Start">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Auto Start</string>
+   </property>
+  </action>
+  <action name="actionAnimate_Play">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Animated Play</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="text">
+    <string>Undo</string>
+   </property>
+  </action>
+  <action name="actionNo_image">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>None</string>
+   </property>
+  </action>
+  <action name="actionUnivers">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Univers</string>
+   </property>
+  </action>
+  <action name="actionOcean">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Ocean</string>
+   </property>
+  </action>
+  <action name="actionMt_Fuji">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Mt. Fuji</string>
+   </property>
+  </action>
+  <action name="actionDesert">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Desert</string>
+   </property>
+  </action>
+  <action name="actionNicu_white">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Nicu (white)</string>
+   </property>
+  </action>
+  <action name="actionEverest">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Everest</string>
+   </property>
+  </action>
+  <action name="actionTigullio_modern">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Tigullio (modern)</string>
+   </property>
+  </action>
+  <action name="actionCustom_Expert">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Customized (Expert)</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>CLabel</class>
+   <extends>QLabel</extends>
+   <header>clabel.h</header>
+   <slots>
+    <signal>clicked()</signal>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

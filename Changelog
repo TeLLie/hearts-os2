@@ -1,0 +1,206 @@
+22 nov 2018: Version 1.0b
+------------------------------------------------------------------------------------------------
+22 nov 2018: Added auto save/load unfinished game.
+22 nov 2018: fixed and tune up of the AI.
+23 nov 2018: is_it_draw(): fixed a bug. eg: scores 106 45 45 20 was considered a draw!
+23 nov 2018: auto_centering: fixed minor bug.
+23 nov 2018: load_saved_game(): 1- initialisation of jack_diamond_played variable.
+                                2- more file integrity check (FCORRUPTED).
+
+27 nov 2018: Version 1.1b
+------------------------------------------------------------------------------------------------
+27 nov 2018: added statistics of the game play.
+27 nov 2018: fixed: can_break_heart(): a rare bug could occur to break heart early.
+27 nov 2018: fixed: windows resize(), small GUI glitch.
+27 nov 2018: added: Source code link to the about -> credits.
+27 nov 2018: removed: GUI toolskit.
+27 nov 2018: auto_save_game() system -> don't save fresh started new games.
+
+27 nov 2018: Version 1.1.1b "Unreleased"
+------------------------------------------------------------------------------------------------
+27 nov 2018: fixed elusive reentrant bug in new_moon substract. if you shoot the moon with
+             a score of less 52 and choosed to susbtract. A bug was triggered.
+29 nov 2018: fixed autosave() not saving on "fresh game" instead of not saving on "fresh round".
+
+10 dec 2018: Version 1.2b
+------------------------------------------------------------------------------------------------
+10 dec 2018: Redesign of the AI to make diffent computers playing styles. (an attempt)
+10 dec 2018: added: cards history as a debuging tools, cheat mode has been moved to debug section.
+
+26 Feb 2019: Version 1.2.1b "Unreleased"
+------------------------------------------------------------------------------------------------
+26 Feb 2019: Fix minor draw bug.
+
+11 Jul 2019: Version 1.3b
+------------------------------------------------------------------------------------------------
+11 Jul 2019: Modified the GUI. The cards are now bigger and they fit on a single row. (overlapping)
+11 Jul 2019: Added: Basic language support for: French, Russian.
+11 jul 2019: Added a class for deck cards set. 
+
+15 Jul 2019: Version 1.4b
+------------------------------------------------------------------------------------------------
+15 Jul 2019: Added Settings [Easy card selection].
+15 Jul 2019: Added Card deck support for (English, Russian).
+15 Jul 2019: Fixed a crash bug in Debug mode. (spying)
+
+03 May 2020: Version 1.5b
+------------------------------------------------------------------------------------------------
+03 May 2020: Added Online game play.
+03 May 2020: Added QT Linguist support.
+
+10 May 2020: Version 1.5.1b
+------------------------------------------------------------------------------------------------
+10 May 2020: Fixed compile errors when DEBUG is disabled.
+10 May 2020: Downgraded to Qt creator 3.5 to support Qt 5.5.
+10 May 2020: Added: missing translation .ts files.
+10 May 2020: Minor statistics gui glitch fixed.
+10 May 2020: Minor fix in can_break_heart.
+10 May 2020: Minor online issues fixed.
+10 May 2020: Added: Menu help->Online.
+10 May 2020: Added: online button [Start] to start a game.
+10 May 2020: Added: confirmation to the online button [Exit]. 
+
+16 May 2020: Version 1.5.2b
+-------------------------------------------------------------------------------------------------
+16 May 2020: Added online time bank.
+16 May 2020: Added an error function.
+16 May 2020: Fix minor bugs, and code cleanup.
+
+29 May 2020: Version 1.5.3b
+-------------------------------------------------------------------------------------------------
+29 May 2020: Added online buttons icons.
+
+12 Nov 2020: Version 1.5.4
+-------------------------------------------------------------------------------------------------
+30 Nov 2020: Fixed a typo.
+12 Nov 2020: [DEBUG] Cards history now highlight every hand winners.
+12 Nov 2020: [DEBUG] added a cards played list.
+12 Nov 2020: [DEBUG] Switching to a different cards deck doesn't erase the cards history anymore.
+12 Nov 2020: Hide the button (command, chat, help) and the line edit during offline play.
+
+17 Nov 2020: Version 1.5.5
+-------------------------------------------------------------------------------------------------
+17 Nov 2020: Moved menu About/Credits into menu Help.
+17 Nov 2020: Moved menu Languages into menu Settings.
+17 Nov 2020: Added Settings Game Speed: Slow, Normal, Fast. (Offline play only)
+17 Nov 2020: Added Settings Auto Start. This option set if the two of clubs is played
+             automatically or manually. (For human play)
+
+28 Nov 2020: Version 1.6
+-------------------------------------------------------------------------------------------------
+28 Nov 2020: New game GUI. (showing all 4 players cards)
+28 Nov 2020: Animated play.
+28 Nov 2020: Speed tune-up.
+28 Nov 2020: Code clean-up.
+
+ 6 Dec 2020: Version 1.6.1
+-------------------------------------------------------------------------------------------------
+28 Nov 2020: Fix compilation error without DEBUG defined.
+30 Nov 2020: Fix online glitch. Timer not removed after a table purge.
+ 1 Dec 2020: Fix "new game" glitch: New players names appear and previous scores was shown for
+             1 or 2 seconds before being cleared.
+ 2 Dec 2020: Fix "Draw Glitch". If a game is draw, and "no draw" settings is set. The game
+             continue, but the shuffling cards sounds was muted.
+ 4 Dec 2020: 1) It's now possible to compile Hearts without online play support
+                (Edit Hearts.pro remove ONLINE_PLAY from DEFINES +=)
+             2) Code clean-up
+ 6 Dec 2020: Fix easy_cards_selection glitch when switching auto-centering on/off.
+             Fix a small reset statistics glitch. (3 old stats were still shown in the open statistics window).
+             Added new command Undo.
+             
+31 Dec 2020: Version 1.7
+-------------------------------------------------------------------------------------------------
+31 Dec 2020: This version allow the mainwindow resize, and full screen. (minimum size 715x780)
+             (This option doesn't support scaling yet, and is BETA. It can be disabled in Hearts.pro by
+             removing FULL_SCREEN from define. "qmake Hearts.pro and recompile".
+
+04 Jan 2021: Version 1.7.1 (Snap pack bug fix version only)
+
+06 Jan 2021: Version 1.7.2
+-------------------------------------------------------------------------------------------------
+06 Jan 2021: Fix a resize glitch: If you resize the width of the mainwindow while the first card
+             is selected and ready to be passed. The under deck move to a wrong y axis position.
+06 Jan 2011: The online connect windows buttons: Connect, Register and Cancel will be translatable.
+             The code is revamped, and the little hack removed.
+06 Jan 2021: Online play: Creating a table will now show: "Waiting for a player" on the empties
+             chairs, instead of "Sit Here" on every chair, because it was confusing. Also, "Sit Here"
+             wasn't translatable while the new text will be.
+06 Jan 2021: Fix 1.7 bug compile without ONLINE_PLAY defined
+
+09 Jan 2021: Version 1.8
+-------------------------------------------------------------------------------------------------
+09 Jan 2021: Added 6 images background theme. Universe, Ocean, Mt. Fuji, Sakura, Desert and
+             Forest. 
+
+11 Jan 2021: Version 1.8.1
+-------------------------------------------------------------------------------------------------
+11 Jan 2021: This version "should" fix a glitch present in Hearts snap pack, because it use
+             font size 9, while Hearts was coded using font size 11. That part of the code is also 
+             simplified.
+11 Jan 2021: Fix online button's tool tip invisible. (black on black).
+
+12 Jan 2021: Version 1.8.2
+-------------------------------------------------------------------------------------------------
+12 Jan 2021: Fixed the Russian deck license link.
+12 Jan 2021: Replaced the GNU online_start_game button icon by a Public domain icon.
+12 Jan 2021: Added a new card deck: Nicu (white)
+
+13 Jan 2021: Version 1.8.3
+-------------------------------------------------------------------------------------------------
+13 Jan 2021: Replaced all the background images by new CC-BY images.
+
+17 Jan 2021: Version 1.8.4
+-------------------------------------------------------------------------------------------------
+17 Jan 2021: Fix the rendering of the deck Nicu (white). (see before and after)
+                 1.8.3: https://github.com/Rescator7/Hearts/blob/master/screenshot/SCR2-hearts-1.8.jpg
+                 1.8.4: https://github.com/Rescator7/Hearts/blob/master/screenshot/SCR1-hearts-1.8.4.jpg
+17 Jan 2021: Updated Backgound images list in Menu->Help->Settings. 
+17 Jan 2021: Corrupted saved game now create a backup ~/.hearts.saved.bak (For analyse)
+
+19 Jan 2021: Version 1.8.5
+-------------------------------------------------------------------------------------------------
+19 Jan 2021: Online play: Rotate the Nicu (white)'s back cards.
+19 Jan 2021: Online play: fixed the rendering of the 3 received cards.
+19 Jan 2021: Updated menu->help->online.
+
+22 Jan 2021: Version 1.8.6
+-------------------------------------------------------------------------------------------------
+22 Jan 2021: Fix 3 small online bugs:
+             - Disconnected status (name) shown on the wrong chair.
+             - "Waiting for a player" not showing on chair SOUTH when joining a table.
+             - variable online_game_started not set to false after leaving a table created issue.
+
+23 Jan 2021: Version 1.8.7
+-------------------------------------------------------------------------------------------------
+23 Jan 2021: Hearts is now Qt 6.0 ready.
+             The game can be built using either Qt5, or Qt6.
+
+24 Jan 2021: Online: create table dialogbox buttons are now translatable.
+             Online: leaving server warning buttons are now translatable.
+             Offline: Name in the southern heart "You" is now translatable.
+             Offline: Statistics Reset buttons are now translatable. 
+24 Jan 2021: Added: Tigullio modern card deck.              
+
+02 Feb 2021: Version 1.8.8
+-------------------------------------------------------------------------------------------------
+31 Jan 2021: Converted the Russian deck from .svg to .pgn
+             Orignal russian deck was too big 4.8M in size. Typically a deck is about 1M in size.
+31 Jan 2021: Fixed this issue: Although difficult. It was possible to switch deck during the
+             ~2 seconds delay when receiving the 3 cards after the pass button was triggered. Those
+             3 cards would stay RGB reversed...  
+31 Jan 2021: Adjusted Tigullio modern deck rendering. 
+
+04 Feb 2021: Version 1.8.9
+-------------------------------------------------------------------------------------------------
+04 Feb 2021: Applied the russian translation fixes (+90 changes) from hearts_ru.ts.patch by Андрей Алыпов (AndnoVember)
+             https://build.opensuse.org/package/show/home:AndnoVember:LXQt/hearts 
+
+01 Apr 2022: Version 1.8.10
+-------------------------------------------------------------------------------------------------
+05 Feb 2021: Debug: (Nobody) is now translatable.
+05 Feb 2021: CClient::~CClient delete tcpSocket.
+05 Feb 2021: Typo in credits.
+06 Feb 2021: New moon: Computers can now subtract -26.
+31 Mar 2022: New setting: settings->Game_Speed->Customized (Expert mode) 
+             https://github.com/Rescator7/Hearts/issues/3
+

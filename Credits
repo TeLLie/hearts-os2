@@ -1,0 +1,176 @@
+Images credits goes to:
+=========================
+
+Background Images:
+------------------
+
+Universe: Photo by ESO/G. Beccari
+License: https://www.eso.org/public/copyright/
+
+Everest: Photo by Hiroki Ogawa
+License: https://creativecommons.org/licenses/by/3.0/deed.en
+
+Mt.Fuji: Photo by Jack Soma
+License: https://creativecommons.org/licenses/by/3.0/deed.en
+
+Desert: Photo by Peter Chisholm
+License: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+Ocean: Ocean: Photo by grumpylumixuser
+License: https://creativecommons.org/licenses/by/3.0/deed.en
+
+
+Decks cards images:
+-------------------
+
+Images: Standard deck set
+By: https://github.com/htdebeer/SVG-cards/blob/master/AUTHORS
+Website: https://github.com/htdebeer/SVG-cards
+License: https://github.com/htdebeer/SVG-cards/blob/master/LICENSE
+NOTE: card-base2.png and empty.pgn are color modified version of SVG-Card (card-base.png)
+
+Images: Nicu (white) card deck set
+By:  Nicu B. 2005 nicubunu.ro
+Website: http://nicubunu.ro/cards/
+License: https://creativecommons.org/licenses/publicdomain/
+NOTE: back07.png is a hue modifed version of back07.svg from Nicu.
+
+Images: English card deck set
+Website: https://commons.wikimedia.org/wiki/File:English_pattern_playing_cards_deck.svg
+License: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+Images: Russian card deck set
+Website: https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD:%D0%98%D0%B3%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%BA%D0%B0%D1%80%D1%82%D1%8B?uselang=ru
+License: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+Images: Tigullio mordern card deck set
+Website: https://www.opendesktop.org/p/1112687/
+License: http://www.gnu.org/licenses/lgpl.html
+
+NOTE: the cards in .pgn format were extracted from this deck.
+The license is written inside the file tigullio-modern.svg
+
+
+Icons: left-icon.png, right-icon.png, up-icon.png, no_pass-icon.png and (80x80 icons)
+By: Bob <castillo7@hotmail.com>
+Used as: Direction buttons for passing cards.
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Icons: deck_s.png, deck_h.png, deck_n.png
+By: Bob <castillo7@hotmail.com>
+Used as: Players under cards.
+Created using gimp. They are fill patern available in gimp 2.8.
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Icons: Heart
+Used as: Player's name & scores
+Artist:  icojam
+Website: https://www.iconarchive.com/artist/icojam.html
+License: (Public Domain) https://www.iconarchive.com/show/blue-bits-icons-by-icojam/love-heart-icon.html
+
+Icons: used as online_exit, online_table_leave, online_create_table, online_mute_table
+       used as online_start_game
+Artist: paomedia
+Iconset: Small & Flat Icons
+Website: https://www.iconarchive.com/show/small-n-flat-icons-by-paomedia.html
+License: Public Domain
+
+Icons: used as online_show_tables
+Artist: Fatcow Web Hosting
+Website: https://www.iconarchive.com/artist/fatcow.html
+License: CC Attribution 4.0
+
+
+Sounds credits goes to:
+=========================
+
+Sound: 34201__themfish__glass-house1.wav
+Used as: snd_breaking_heart
+By: themfish
+Website: https://freesound.org/people/themfish/
+License: https://creativecommons.org/licenses/by/3.0/
+
+Sound: 240777__f4ngy__dealing-card.wav
+Used as: snd_dealing_card
+By: f4ngy
+Website: https://freesound.org/people/f4ngy/
+License: https://creativecommons.org/licenses/by/3.0/
+
+Sound: 253886__themusicalnomad__negative-beeps.wav
+Used as: snd_error
+By: themusicalnomad
+Website: https://freesound.org/people/themusicalnomad/
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Sound: 133283__fins__game-over.wav
+Used as: snd_game_over
+By: fins
+Website: https://freesound.org/people/fins/
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Sound: 171671__fins__success-1.wav
+Used as: snd_shoot_moon
+By: fins
+Website: https://freesound.org/people/fins/
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Sound: Soundwhich - Correct (LittleRainySeasons) [public].wav
+Used as: snd_your_turn
+By: LittleRainySeasons
+Website: https://freesound.org/people/LittleRainySeasons/
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Sound: 344013__reitanna__high-pitched-ah2.wav
+Used as: snd_queen_spade
+By: Reitanna
+Website: https://freesound.org/people/Reitanna/
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Sound: 6127__bmaczero__contact1.wav
+Used as: snd_contact
+By: BMacZero
+Website: https://freesound.org/people/BMacZero/
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Sound: 434472__dersuperanton__taking-card.wav
+Used as: snd_passing_cards
+By: dersuperanton
+Website: https://freesound.org/people/dersuperanton/
+License: https://creativecommons.org/licenses/by/3.0/
+
+Sound: 423767__someonecool14__card-shuffling.wav
+Used as: snd_shuffling_cards
+By: SomeoneCool14
+Website: https://freesound.org/people/SomeoneCool14/
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Sound: 400163__vitovsky1__fanfare-short.wav
+Used as: snd_perfect_100
+By: vitovsky1
+Website: https://freesound.org/people/vitovsky1/
+License: https://creativecommons.org/licenses/by/3.0/
+
+Sound: 322897__rhodesmas__connected-01.wav
+Used as: snd_connected
+By: rhodesmas
+Website: https://freesound.org/people/rhodesmas/
+License: https://creativecommons.org/licenses/by/3.0/
+
+Sound: 322895__rhodesmas__disconnected-01.wav
+Used as: snd_disconnected
+By: rhodesmas
+Website: https://freesound.org/people/rhodesmas/
+License: https://creativecommons.org/licenses/by/3.0/
+
+Sound: 493696__stib__bingbong.wav
+Used as: snd_announcement
+By: stib
+Website: https://freesound.org/people/stib/
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Sound: 403013__inspectorj__ui-confirmation-alert-b5.wav
+Used as: snd_undo
+By: InspectorJ
+Info: "UI Confirmation Alert, B5.wav" by InspectorJ (www.jshaw.co.uk) of Freesound.org
+Website: https://freesound.org/people/InspectorJ/sounds/403013/
+License: https://creativecommons.org/licenses/by/3.0/
