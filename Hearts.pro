@@ -25,7 +25,9 @@
 # ------------------------------------------------------------------------------------------------
 # NOTE: require a rebuild all when modifing the defines options. (QTCREATOR)
 #       or on the shell: make clean; qmake Hearts.pro; make
-DEFINES += ONLINE_PLAY USE_LIBALLEGRO5 FULL_SCREEN DEBUG
+DEFINES += ONLINE_PLAY FULL_SCREEN DEBUG
+
+equals(QMAKE_CXX, g++) { QMAKE_LFLAGS += -no-pie }
 
 QT      += core gui svg
 
